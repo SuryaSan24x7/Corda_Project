@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Cordapp-Built-Platform-Version: 999
+Bundle-SymbolicName: com.r3.devrel.corda5-template-workflows
+Bundle-Name: Corda 5 Cordapp Template - Workflows
+Bundle-Vendor: R3
+Bundle-License: Unknown
+Cordapp-Workflow-Name: Corda 5 Cordapp Template - Workflows
+Cordapp-Workflow-Version: 1
+Cordapp-Workflow-Vendor: R3
+Cordapp-Workflow-Licence: Unknown
+Target-Platform-Version: 1000
+Min-Platform-Version: 999
+Sealed: true
+

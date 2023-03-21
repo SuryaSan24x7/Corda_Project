@@ -1,0 +1,1 @@
+"C:\Users\waghm\Documents\New folder\jdk-12\bin\java" -Dpf4j.pluginsDir="C:\Users\waghm\.corda\cli\plugins" -jar "C:\Users\waghm\.corda\cli\corda-cli.jar" %*

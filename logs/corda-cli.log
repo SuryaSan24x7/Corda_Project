@@ -1,0 +1,104 @@
+2023-03-21 14:29:05.161 INFO [main] [org.pf4j.DefaultPluginStatusProvider] - Enabled plugins: []
+2023-03-21 14:29:05.162 INFO [main] [org.pf4j.DefaultPluginStatusProvider] - Disabled plugins: []
+2023-03-21 14:29:05.165 INFO [main] [org.pf4j.DefaultPluginManager] - PF4J version 3.7.0 in 'deployment' mode
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'virtual-node@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'mgm@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'package@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'db-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'topic-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'secret-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.254 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'initial-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.255 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'initial-rbac@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.255 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'network@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:06.255 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'virtual-node@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.261 INFO [main] [net.corda.cli.plugins.vnode.VirtualNodeCliPlugin$Companion] - starting virtual node plugin
+2023-03-21 14:29:06.262 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'mgm@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.266 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'package@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.270 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'db-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.274 INFO [main] [net.corda.cli.plugins.dbconfig.Database$Companion] - Bootstrap plugin started.
+2023-03-21 14:29:06.274 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'topic-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.276 INFO [main] [net.corda.cli.plugins.topicconfig.TopicPlugin$Companion] - Topic plugin started.
+2023-03-21 14:29:06.277 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'secret-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.280 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'initial-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:06.284 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'initial-rbac@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.301 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'network@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.866 ERROR [main] [SystemErr] - Missing required subcommand
+
+2023-03-21 14:29:07.887 ERROR [main] [SystemErr] - Usage: corda [COMMAND]
+Commands:
+  set-node        Sets the current target for http requests.
+  vnode           Manages a virtual node
+  mgm             Plugin for membership operations.
+  package         Plugin for CPB, CPI operations.
+  database        Does Database Bootstrapping
+  topic           Plugin for Kafka topic operations.
+  secret-config   Handle secret config values given the value, a passphrase and
+                    a salt
+  initial-config  Create SQL files to write the initial config to a new cluster
+  initial-rbac    Creates common RBAC roles
+  network         Plugin for interacting with a network.
+
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'network@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'initial-rbac@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'initial-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'secret-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'topic-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.889 INFO [main] [net.corda.cli.plugins.topicconfig.TopicPlugin$Companion] - Topic plugin stopped.
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'db-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.889 INFO [main] [net.corda.cli.plugins.dbconfig.Database$Companion] - Bootstrap plugin stopped.
+2023-03-21 14:29:07.889 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'package@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.890 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'mgm@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.890 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'virtual-node@5.0.0.0-Fox1.1'
+2023-03-21 14:29:07.890 INFO [main] [net.corda.cli.plugins.vnode.VirtualNodeCliPlugin$Companion] - stopping virtual node plugin
+2023-03-21 14:29:19.152 INFO [main] [org.pf4j.DefaultPluginStatusProvider] - Enabled plugins: []
+2023-03-21 14:29:19.153 INFO [main] [org.pf4j.DefaultPluginStatusProvider] - Disabled plugins: []
+2023-03-21 14:29:19.156 INFO [main] [org.pf4j.DefaultPluginManager] - PF4J version 3.7.0 in 'deployment' mode
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'virtual-node@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'mgm@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'package@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'db-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'topic-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'secret-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'initial-config@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'initial-rbac@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Plugin 'network@5.0.0.0-Fox1.1' resolved
+2023-03-21 14:29:20.216 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'virtual-node@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.223 INFO [main] [net.corda.cli.plugins.vnode.VirtualNodeCliPlugin$Companion] - starting virtual node plugin
+2023-03-21 14:29:20.225 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'mgm@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.229 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'package@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.234 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'db-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.238 INFO [main] [net.corda.cli.plugins.dbconfig.Database$Companion] - Bootstrap plugin started.
+2023-03-21 14:29:20.238 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'topic-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.241 INFO [main] [net.corda.cli.plugins.topicconfig.TopicPlugin$Companion] - Topic plugin started.
+2023-03-21 14:29:20.241 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'secret-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.245 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'initial-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:20.249 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'initial-rbac@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.265 INFO [main] [org.pf4j.AbstractPluginManager] - Start plugin 'network@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.724 ERROR [main] [SystemErr] - Missing required subcommand
+
+2023-03-21 14:29:21.744 ERROR [main] [SystemErr] - Usage: corda [COMMAND]
+Commands:
+  set-node        Sets the current target for http requests.
+  vnode           Manages a virtual node
+  mgm             Plugin for membership operations.
+  package         Plugin for CPB, CPI operations.
+  database        Does Database Bootstrapping
+  topic           Plugin for Kafka topic operations.
+  secret-config   Handle secret config values given the value, a passphrase and
+                    a salt
+  initial-config  Create SQL files to write the initial config to a new cluster
+  initial-rbac    Creates common RBAC roles
+  network         Plugin for interacting with a network.
+
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'network@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'initial-rbac@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'initial-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'secret-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'topic-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [net.corda.cli.plugins.topicconfig.TopicPlugin$Companion] - Topic plugin stopped.
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'db-config@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [net.corda.cli.plugins.dbconfig.Database$Companion] - Bootstrap plugin stopped.
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'package@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'mgm@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [org.pf4j.AbstractPluginManager] - Stop plugin 'virtual-node@5.0.0.0-Fox1.1'
+2023-03-21 14:29:21.746 INFO [main] [net.corda.cli.plugins.vnode.VirtualNodeCliPlugin$Companion] - stopping virtual node plugin
